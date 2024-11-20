@@ -627,3 +627,4 @@ C:\Users\gutoz\OneDrive\Área de Trabalho\pimads-main\obj\Debug\net8.0\refint\pr
 C:\Users\gutoz\OneDrive\Área de Trabalho\pimads-main\obj\Debug\net8.0\projetopim.pdb
 C:\Users\gutoz\OneDrive\Área de Trabalho\pimads-main\obj\Debug\net8.0\projetopim.genruntimeconfig.cache
 C:\Users\gutoz\OneDrive\Área de Trabalho\pimads-main\obj\Debug\net8.0\ref\projetopim.dll
+C:\Users\gutoz\OneDrive\Área de Trabalho\pimads-main\obj\Debug\net8.0\projetopim.sourcelink.json
