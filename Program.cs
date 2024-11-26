@@ -15,7 +15,7 @@ namespace projetopim
             builder.Services.AddScoped<InsumoService>();
             builder.Services.AddScoped<VendasService>();
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+            options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
 

@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gutoz\\OneDrive\\Área de Trabalho\\pimads-main\\projetopim.csproj": {}
+    "C:\\Users\\Administrador\\Desktop\\adsverde\\VerdeADS\\projetopim.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gutoz\\OneDrive\\Área de Trabalho\\pimads-main\\projetopim.csproj": {
+    "C:\\Users\\Administrador\\Desktop\\adsverde\\VerdeADS\\projetopim.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gutoz\\OneDrive\\Área de Trabalho\\pimads-main\\projetopim.csproj",
+        "projectUniqueName": "C:\\Users\\Administrador\\Desktop\\adsverde\\VerdeADS\\projetopim.csproj",
         "projectName": "projetopim",
-        "projectPath": "C:\\Users\\gutoz\\OneDrive\\Área de Trabalho\\pimads-main\\projetopim.csproj",
-        "packagesPath": "C:\\Users\\gutoz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gutoz\\OneDrive\\Área de Trabalho\\pimads-main\\obj\\",
+        "projectPath": "C:\\Users\\Administrador\\Desktop\\adsverde\\VerdeADS\\projetopim.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\Desktop\\adsverde\\VerdeADS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gutoz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,6 +49,10 @@
               "version": "[2.4.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[9.0.0, )"
             },
