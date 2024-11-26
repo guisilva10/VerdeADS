@@ -1,0 +1,31 @@
+﻿@model Cliente;
+
+<div class="container-card">
+
+    <div class="text-center">
+
+    <h1 class="display-4">Editar Cliente</h1>
+</div>
+<form method="post" asp-action="Editar">
+    <input type="hidden" asp-for="Id"/>
+    <div class="mb-3">
+        <label for="NomeEmpresa" class="form-label">Razão Social</label>
+        <input type="text" class="form-control" id="NomeEmpresa" name="NomeEmpresa" asp-for="NomeEmpresa" placeholder="Insira o nome da empresa" required />
+    </div>
+
+    <div class="mb-3">
+        <label for="Cnpj" class="form-label">Cnpj</label>
+        <input type="text" class="form-control" id="Cnpj" name="Cnpj" asp-for="Cnpj" placeholder="Insira o CNPJ da empresa" required />
+    </div>
+
+    <div class="mb-3">
+        <label for="Email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="Email" name="Email" asp-for="Email" placeholder="Insira o email da empresa" required />
+    </div>
+
+ 
+
+    <button type="submit" class="btn btn-primary">Alterar</button>
+    <a class="btn btn-secondary" asp-controller="Insumos" asp-action="Index" role="button">Voltar</a>
+</form>
+</div>

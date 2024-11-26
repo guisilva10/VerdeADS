@@ -9,14 +9,36 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace projetopim.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241126183552_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20241126185618_InitialCreateClienteDb")]
+    partial class InitialCreateClienteDb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.0");
+
+            modelBuilder.Entity("Cliente", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Cnpj")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("NomeEmpresa")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Clientes");
+                });
 
             modelBuilder.Entity("CultivosEInsumos", b =>
                 {

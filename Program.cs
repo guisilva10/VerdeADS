@@ -14,6 +14,7 @@ namespace projetopim
 
             builder.Services.AddScoped<InsumoService>();
             builder.Services.AddScoped<VendasService>();
+            builder.Services.AddScoped<ClienteService>();
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 

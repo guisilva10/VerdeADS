@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WeZxuaDtQqa8EqLJfebGq0x7MZFjq0Mr3Pl2pcIOJho=",
+  "Hash": "0oh1RxhUZ6YFFTtfLfLeIfHZvqSSNuafBqOvGU2LoZo=",
   "Source": "projetopim",
   "BasePath": "_content/projetopim",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "hq7dsaflye",
-      "Integrity": "aZyojpO2ukQhezdxteChxY95mxOzt08hnRa5WD3SMuM=",
+      "Fingerprint": "twq1c997kb",
+      "Integrity": "fd4fMyFOo24mI5BdMP2E8EZDc97dTWfgzJ1aTXMH7pE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1375,8 +1375,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "y3rj81c7wp",
-      "Integrity": "/jvi/hZzkrcCC06358JvzxyCVCtngTm3oRbk+1vK0n8=",
+      "Fingerprint": "paqdzeq3pt",
+      "Integrity": "n96wrnTM5rbBWq8jXqVrJ3yYp7Ow/GwOrdK1BSvrO0s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\RelatorioVendas.pdf"
@@ -1600,7 +1600,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "633"
+          "Value": "657"
         },
         {
           "Name": "Content-Type",
@@ -1608,11 +1608,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aZyojpO2ukQhezdxteChxY95mxOzt08hnRa5WD3SMuM=\""
+          "Value": "\"fd4fMyFOo24mI5BdMP2E8EZDc97dTWfgzJ1aTXMH7pE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 26 Nov 2024 18:33:07 GMT"
+          "Value": "Tue, 26 Nov 2024 18:39:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1622,12 +1622,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-aZyojpO2ukQhezdxteChxY95mxOzt08hnRa5WD3SMuM="
+          "Value": "sha256-fd4fMyFOo24mI5BdMP2E8EZDc97dTWfgzJ1aTXMH7pE="
         }
       ]
     },
     {
-      "Route": "css/site.hq7dsaflye.css",
+      "Route": "css/site.twq1c997kb.css",
       "AssetFile": "C:\\Users\\Administrador\\Desktop\\adsverde\\VerdeADS\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1637,7 +1637,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "633"
+          "Value": "657"
         },
         {
           "Name": "Content-Type",
@@ -1645,11 +1645,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aZyojpO2ukQhezdxteChxY95mxOzt08hnRa5WD3SMuM=\""
+          "Value": "\"fd4fMyFOo24mI5BdMP2E8EZDc97dTWfgzJ1aTXMH7pE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 26 Nov 2024 18:33:07 GMT"
+          "Value": "Tue, 26 Nov 2024 18:39:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1659,7 +1659,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hq7dsaflye"
+          "Value": "twq1c997kb"
         },
         {
           "Name": "label",
@@ -1667,7 +1667,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-aZyojpO2ukQhezdxteChxY95mxOzt08hnRa5WD3SMuM="
+          "Value": "sha256-fd4fMyFOo24mI5BdMP2E8EZDc97dTWfgzJ1aTXMH7pE="
         }
       ]
     },
@@ -6674,6 +6674,51 @@
       ]
     },
     {
+      "Route": "RelatorioVendas.paqdzeq3pt.pdf",
+      "AssetFile": "C:\\Users\\Administrador\\Desktop\\adsverde\\VerdeADS\\wwwroot\\RelatorioVendas.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1556"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n96wrnTM5rbBWq8jXqVrJ3yYp7Ow/GwOrdK1BSvrO0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 26 Nov 2024 19:16:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "paqdzeq3pt"
+        },
+        {
+          "Name": "label",
+          "Value": "RelatorioVendas.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-n96wrnTM5rbBWq8jXqVrJ3yYp7Ow/GwOrdK1BSvrO0s="
+        }
+      ]
+    },
+    {
       "Route": "RelatorioVendas.pdf",
       "AssetFile": "C:\\Users\\Administrador\\Desktop\\adsverde\\VerdeADS\\wwwroot\\RelatorioVendas.pdf",
       "Selectors": [],
@@ -6684,7 +6729,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1552"
+          "Value": "1556"
         },
         {
           "Name": "Content-Type",
@@ -6692,11 +6737,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/jvi/hZzkrcCC06358JvzxyCVCtngTm3oRbk+1vK0n8=\""
+          "Value": "\"n96wrnTM5rbBWq8jXqVrJ3yYp7Ow/GwOrdK1BSvrO0s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 26 Nov 2024 18:33:07 GMT"
+          "Value": "Tue, 26 Nov 2024 19:16:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6706,52 +6751,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/jvi/hZzkrcCC06358JvzxyCVCtngTm3oRbk+1vK0n8="
-        }
-      ]
-    },
-    {
-      "Route": "RelatorioVendas.y3rj81c7wp.pdf",
-      "AssetFile": "C:\\Users\\Administrador\\Desktop\\adsverde\\VerdeADS\\wwwroot\\RelatorioVendas.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1552"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/jvi/hZzkrcCC06358JvzxyCVCtngTm3oRbk+1vK0n8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 26 Nov 2024 18:33:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "y3rj81c7wp"
-        },
-        {
-          "Name": "label",
-          "Value": "RelatorioVendas.pdf"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/jvi/hZzkrcCC06358JvzxyCVCtngTm3oRbk+1vK0n8="
+          "Value": "sha256-n96wrnTM5rbBWq8jXqVrJ3yYp7Ow/GwOrdK1BSvrO0s="
         }
       ]
     },

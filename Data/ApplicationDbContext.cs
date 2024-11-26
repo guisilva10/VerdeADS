@@ -8,6 +8,8 @@ public class ApplicationDbContext : DbContext
     public DbSet<CultivosEInsumos> CultivosEInsumos { get; set; }
     public DbSet<Vendas> Vendas { get; set; }
 
+    public DbSet<Cliente> Clientes {get; set;}
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
@@ -27,6 +29,13 @@ public class ApplicationDbContext : DbContext
             entity.Property(e => e.Cliente).IsRequired();  // Propriedade obrigatória
             entity.Property(e => e.Produto).IsRequired();  // Propriedade obrigatória
             entity.Property(e => e.FormaDePagamento).IsRequired();  // Propriedade obrigatória
+        });
+        modelBuilder.Entity<Cliente>(entity =>
+        {
+            entity.HasKey(e => e.Id);  // Chave Primária para Vendas
+            entity.Property(e => e.NomeEmpresa).IsRequired();  // Propriedade obrigatória
+            entity.Property(e => e.Cnpj).IsRequired();  // Propriedade obrigatória
+            entity.Property(e => e.Email).IsRequired();  // Propriedade obrigatória
         });
     }
 }

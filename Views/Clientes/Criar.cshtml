@@ -1,0 +1,30 @@
+﻿@model Cliente
+
+@{
+    ViewData["Title"] = "Registrar Novo Cliente";
+}
+
+<div class="container-card">
+    <div class="text-center">
+        <h1 class="display-4">Registrar Novo Cliente</h1>
+    </div>
+
+<form method="post" asp-action="Criar">
+    <div class="mb-3">
+        <label for="NomeEmpresa" class="form-label">NomeEmpresa</label>
+        <input type="text" class="form-control" id="NomeEmpresa" name="NomeEmpresa" value="@Model.NomeEmpresa" asp-for="NomeEmpresa" placeholder="Insira o nome da empresa" required>
+    </div>
+    <div class="mb-3">
+        <label for="Cnpj" class="form-label">Cnpj</label>
+        <input type="text" class="form-control" id="Cnpj" name="Cnpj" value="@Model.Cnpj" asp-for="Cnpj" placeholder="Insira o CNPJ da empresa" required>
+    </div>
+    <div class="mb-3">
+        <label for="Email" class="form-label">Email</label>
+        <input type="text" class="form-control" id="Email" name="Email" value="@Model.Email" asp-for="Email" placeholder="Insira o email da empresa" required>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Registrar</button>
+    <a class="btn btn-secondary" asp-controller="Clientes" asp-action="Index" role="button">Voltar</a>
+</form>
+
+</div>

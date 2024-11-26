@@ -5,11 +5,26 @@
 namespace projetopim.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class InitialCreateClienteDb : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "Clientes",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    NomeEmpresa = table.Column<string>(type: "TEXT", nullable: false),
+                    Cnpj = table.Column<int>(type: "INTEGER", nullable: false),
+                    Email = table.Column<string>(type: "TEXT", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Clientes", x => x.Id);
+                });
+
             migrationBuilder.CreateTable(
                 name: "CultivosEInsumos",
                 columns: table => new
@@ -51,6 +66,9 @@ namespace projetopim.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Clientes");
+
             migrationBuilder.DropTable(
                 name: "CultivosEInsumos");
 

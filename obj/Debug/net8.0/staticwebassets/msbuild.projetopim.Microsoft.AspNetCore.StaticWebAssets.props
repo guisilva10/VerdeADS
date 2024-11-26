@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>hq7dsaflye</Fingerprint>
-      <Integrity>aZyojpO2ukQhezdxteChxY95mxOzt08hnRa5WD3SMuM=</Integrity>
+      <Fingerprint>twq1c997kb</Fingerprint>
+      <Integrity>fd4fMyFOo24mI5BdMP2E8EZDc97dTWfgzJ1aTXMH7pE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -1128,8 +1128,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>y3rj81c7wp</Fingerprint>
-      <Integrity>/jvi/hZzkrcCC06358JvzxyCVCtngTm3oRbk+1vK0n8=</Integrity>
+      <Fingerprint>paqdzeq3pt</Fingerprint>
+      <Integrity>n96wrnTM5rbBWq8jXqVrJ3yYp7Ow/GwOrdK1BSvrO0s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\RelatorioVendas.pdf'))</OriginalItemSpec>
